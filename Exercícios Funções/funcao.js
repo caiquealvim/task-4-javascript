@@ -1,16 +1,16 @@
 // 1. Crie uma função que receba um inteiro e diga se ele é “Par” para números pares ou “Ímpar” para números impares.
 
-function parOuImpar(numero) {
+function parImpar(numero) {
     if (parseInt(numero) % 2 === 0) {
-      console.log("O número " + numero + " é par");
+      console.log("este numero " + numero + " é par");
     } else {
-      console.log("O número " + numero + " é ímpar");
+      console.log("este numero " + numero + " é ímpar");
     }
   }
   
-  parOuImpar(6);
-  parOuImpar("1");
-  parOuImpar(4);
+  parImpar(6);
+  parImpar("1");
+  parImpar(4);
 
 //   2.	Crie uma função que receba dois números e retorne o resultado da soma entre eles. 
 
@@ -19,7 +19,7 @@ function soma(numero1,numero2){
 }
 
 let resultado = soma(4, 5);
-console.log("A soma dos dois números é: " + resultado);
+console.log("A soma dos numeros: " + resultado);
 
 
 // 3. Crie uma função que receba um número e retorne o oposto desse número. Exemplos de retornos:
@@ -34,8 +34,14 @@ function retorno(numero) {
     }
   }
   
+
   console.log(retorno(4));
+
+
+  
+
   console.log(retorno(-40));
+
   console.log(retorno(6));
 
   // 4. Crie uma função que receba um array de números, e retorne a soma de todos os números positivos desse array. Exemplos de retornos:

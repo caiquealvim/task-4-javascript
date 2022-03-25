@@ -7,9 +7,9 @@ let minhaLista = [1, 5, 3, 2, 10];
 
 // 3. Faça um Programa que leia 4 notas, mostre as notas e a média na tela.
 
-var notas = [];
-var soma = 0;
-var media = 0;
+let notas = [];
+let soma = 0;
+let  media = 0;
 
 for (let i = 0; i < 4; i++) {
   notas.push(parseFloat(prompt("Digite uma nota")));
@@ -18,7 +18,7 @@ for (let i = 0; i < 4; i++) {
 
 media = soma / 4;
 
-alert("As notas são: " + notas + " e a média das notas é: " + media);
+alert("as notas são: " + notas + " e a sua media é: " + media);
 
 // 4.	Faça um Programa que leia um vetor de 10 caracteres, e diga quantas consoantes foram lidas. Imprima as consoantes.
 
@@ -28,9 +28,9 @@ let lista = []
 
 // 5. Faça um Programa que leia 20 números inteiros e armazene-os num vetor. Armazene os números pares no vetor PAR e os números IMPARES no vetor ímpar. Imprima os três vetores.
 
-var pares = []
-var impares = []
-var inteiros = []
+let pares = []
+let impares = []
+let inteiros = []
 
 for(let i = 0; i < 20; i++){
 
